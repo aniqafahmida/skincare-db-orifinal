@@ -1,0 +1,162 @@
+:root {
+    --primary: #8a57e9;
+    --secondary: #4c75e6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family :Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: navy;
+    line-height: 3.6;
+    height: 100%;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+}
+
+.items {
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+}
+
+
+
+#showcase {
+    background-image:url('showcase.jpg');
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-link ul {
+    margin:0 ;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-link li {
+    list-style: none;
+}
+
+.navbar-link li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.container {
+    min-height: 100%;
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(to right bottom  , var(--primary) , var(--secondary));
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5rem;
+}
+
+.dropdown {
+    width:30rem;
+}
+
+.dropdown {
+    padding: 1.5rem;
+    border-radius: 4px;
+    background-color: white;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    cursor: pointer;
+    
+
+
+}
+
+.btn {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+background: #f5af09;
+text-align: center;
+text-decoration: none;
+color: #333;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0,0, 0, 0.2);
+width:250px;
+height:60px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+label {
+    font-size: 30px;
+    color: black;
+}
+
+
+ /* .display {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  } 
+   
+
+  
+  button {
+    border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  }
+  
+  .button:hover {
+    opacity: 0.7;
+  }    */
+
